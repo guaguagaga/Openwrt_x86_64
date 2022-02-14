@@ -1,31 +1,132 @@
 CONFIG_TARGET_x86=y
 CONFIG_TARGET_x86_64=y
 CONFIG_TARGET_x86_64_DEVICE_generic=y
+CONFIG_ATH10K_LEDS=y
+CONFIG_ATH10K_THERMAL=y
+CONFIG_ATH9K_SUPPORT_PCOEM=y
+CONFIG_ATH_USER_REGD=y
+CONFIG_DNSPROXY_COMPRESS_UPX=y
+CONFIG_DRIVER_11AC_SUPPORT=y
+CONFIG_DRIVER_11N_SUPPORT=y
 # CONFIG_GRUB_EFI_IMAGES is not set
 CONFIG_GRUB_IMAGES=y
-# CONFIG_PACKAGE_UnblockNeteaseMusic is not set
-# CONFIG_PACKAGE_UnblockNeteaseMusic-Go is not set
+CONFIG_KEEPALIVED_BFD=y
+CONFIG_KEEPALIVED_CHECKSUM_COMPAT=y
+CONFIG_KEEPALIVED_DBUS=y
+CONFIG_KEEPALIVED_FWMARK=y
+CONFIG_KEEPALIVED_IPTABLES=y
+CONFIG_KEEPALIVED_JSON=y
+CONFIG_KEEPALIVED_LINKBEAT=y
+CONFIG_KEEPALIVED_LVS=y
+CONFIG_KEEPALIVED_LVS_64BIT_STATS=y
+CONFIG_KEEPALIVED_LVS_SYNCD=y
+CONFIG_KEEPALIVED_ROUTES=y
+CONFIG_KEEPALIVED_SHA1=y
+CONFIG_KEEPALIVED_SNMP_CHECKER=y
+CONFIG_KEEPALIVED_SNMP_REPLY_V3_FOR_V2=y
+CONFIG_KEEPALIVED_SNMP_RFC2=y
+CONFIG_KEEPALIVED_SNMP_RFC3=y
+CONFIG_KEEPALIVED_SNMP_VRRP=y
+CONFIG_KEEPALIVED_VRRP=y
+CONFIG_KEEPALIVED_VRRP_AUTH=y
+CONFIG_PACKAGE_ATH_DFS=y
+CONFIG_PACKAGE_MAC80211_DEBUGFS=y
+CONFIG_PACKAGE_MAC80211_MESH=y
 # CONFIG_PACKAGE_adbyby is not set
+CONFIG_PACKAGE_ath10k-board-qca9888=y
+CONFIG_PACKAGE_ath10k-board-qca988x=y
+CONFIG_PACKAGE_ath10k-board-qca9984=y
+CONFIG_PACKAGE_ath10k-firmware-qca9888=y
+CONFIG_PACKAGE_ath10k-firmware-qca988x=y
+CONFIG_PACKAGE_ath10k-firmware-qca9984=y
+CONFIG_PACKAGE_ath9k-htc-firmware=y
 # CONFIG_PACKAGE_autosamba is not set
+# CONFIG_PACKAGE_bnx2x-firmware is not set
+CONFIG_PACKAGE_brcmfmac-firmware-43602a1-pcie=y
+CONFIG_PACKAGE_chinadns-ng=y
+CONFIG_PACKAGE_coreutils-nohup=y
 # CONFIG_PACKAGE_etherwake is not set
+CONFIG_PACKAGE_glib2=y
 # CONFIG_PACKAGE_grub2-efi is not set
+CONFIG_PACKAGE_haproxy=y
+CONFIG_PACKAGE_hostapd-common=y
+CONFIG_PACKAGE_iptables-mod-iprange=y
 # CONFIG_PACKAGE_iptables-mod-ipsec is not set
+CONFIG_PACKAGE_iw=y
+CONFIG_PACKAGE_iwinfo=y
+CONFIG_PACKAGE_keepalived=y
+# CONFIG_PACKAGE_kmod-alx is not set
+CONFIG_PACKAGE_kmod-ath=y
+CONFIG_PACKAGE_kmod-ath10k=y
+CONFIG_PACKAGE_kmod-ath5k=y
+CONFIG_PACKAGE_kmod-ath9k=y
+CONFIG_PACKAGE_kmod-ath9k-common=y
+CONFIG_PACKAGE_kmod-ath9k-htc=y
+# CONFIG_PACKAGE_kmod-bnx2x is not set
+CONFIG_PACKAGE_kmod-cfg80211=y
 # CONFIG_PACKAGE_kmod-crypto-cbc is not set
+CONFIG_PACKAGE_kmod-crypto-ccm=y
+CONFIG_PACKAGE_kmod-crypto-cmac=y
+CONFIG_PACKAGE_kmod-crypto-ctr=y
 # CONFIG_PACKAGE_kmod-crypto-deflate is not set
 # CONFIG_PACKAGE_kmod-crypto-des is not set
 # CONFIG_PACKAGE_kmod-crypto-echainiv is not set
+CONFIG_PACKAGE_kmod-crypto-gcm=y
+CONFIG_PACKAGE_kmod-crypto-gf128=y
+CONFIG_PACKAGE_kmod-crypto-ghash=y
+# CONFIG_PACKAGE_kmod-crypto-kpp is not set
 # CONFIG_PACKAGE_kmod-crypto-md5 is not set
+CONFIG_PACKAGE_kmod-crypto-rng=y
+CONFIG_PACKAGE_kmod-crypto-seqiv=y
+CONFIG_PACKAGE_kmod-crypto-sha256=y
+# CONFIG_PACKAGE_kmod-iavf is not set
 # CONFIG_PACKAGE_kmod-ipsec is not set
+CONFIG_PACKAGE_kmod-ipt-iprange=y
 # CONFIG_PACKAGE_kmod-ipt-ipsec is not set
+# CONFIG_PACKAGE_kmod-ipt-offload is not set
 # CONFIG_PACKAGE_kmod-iptunnel6 is not set
+CONFIG_PACKAGE_kmod-ixgbevf=y
+CONFIG_PACKAGE_kmod-lib-crc-itu-t=y
+CONFIG_PACKAGE_kmod-lib-crc7=y
+CONFIG_PACKAGE_kmod-mac80211=y
+CONFIG_PACKAGE_kmod-mmc-spi=y
 # CONFIG_PACKAGE_kmod-nf-conntrack-netlink is not set
+# CONFIG_PACKAGE_kmod-nf-flow is not set
+CONFIG_PACKAGE_kmod-rt2800-lib=y
+CONFIG_PACKAGE_kmod-rt2800-usb=y
+CONFIG_PACKAGE_kmod-rt2x00-lib=y
+CONFIG_PACKAGE_kmod-rt2x00-usb=y
+CONFIG_PACKAGE_kmod-shortcut-fe=y
+CONFIG_PACKAGE_kmod-shortcut-fe-cm=y
+CONFIG_PACKAGE_kmod-thermal=y
 # CONFIG_PACKAGE_kmod-tun is not set
-# CONFIG_PACKAGE_libatomic is not set
+CONFIG_PACKAGE_kmod-usb-net-asix=y
+# CONFIG_PACKAGE_kmod-via-velocity is not set
+# CONFIG_PACKAGE_kmod-wireguard is not set
+CONFIG_PACKAGE_libatomic=y
+CONFIG_PACKAGE_libattr=y
+CONFIG_PACKAGE_libbz2=y
+# CONFIG_PACKAGE_libcap is not set
+# CONFIG_PACKAGE_libevdev is not set
+CONFIG_PACKAGE_libffi=y
 # CONFIG_PACKAGE_libgmp is not set
+# CONFIG_PACKAGE_libkmod is not set
+CONFIG_PACKAGE_libltdl=y
+CONFIG_PACKAGE_liblua5.3=y
+CONFIG_PACKAGE_liblzma=y
+CONFIG_PACKAGE_libmagic=y
 # CONFIG_PACKAGE_libminiupnpc is not set
 # CONFIG_PACKAGE_libnatpmp is not set
-# CONFIG_PACKAGE_libnghttp2 is not set
+CONFIG_PACKAGE_libnetsnmp=y
+CONFIG_PACKAGE_libnfnetlink=y
+CONFIG_PACKAGE_libnl-core=y
+CONFIG_PACKAGE_libnl-genl=y
+CONFIG_PACKAGE_libnl-route=y
 # CONFIG_PACKAGE_libstdcpp is not set
+# CONFIG_PACKAGE_libudev-zero is not set
+# CONFIG_PACKAGE_libusb-1.0 is not set
+# CONFIG_PACKAGE_libuv is not set
+# CONFIG_PACKAGE_libwebsockets-full is not set
 # CONFIG_PACKAGE_luci-app-accesscontrol is not set
 # CONFIG_PACKAGE_luci-app-adbyby-plus is not set
 # CONFIG_PACKAGE_luci-app-arpbind is not set
@@ -35,43 +136,58 @@ CONFIG_GRUB_IMAGES=y
 # CONFIG_PACKAGE_luci-app-filetransfer is not set
 # CONFIG_PACKAGE_luci-app-ipsec-vpnd is not set
 # CONFIG_PACKAGE_luci-app-nlbwmon is not set
-# CONFIG_PACKAGE_luci-app-qbittorrent is not set
+CONFIG_PACKAGE_luci-app-passwall=y
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Client is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan_Plus is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Plugin is not set
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray_Plugin=y
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
 # CONFIG_PACKAGE_luci-app-samba is not set
 # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client is not set
 # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Server is not set
+# CONFIG_PACKAGE_luci-app-ttyd is not set
+CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_SHORTCUT_FE=y
 # CONFIG_PACKAGE_luci-app-unblockmusic is not set
 # CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_Go is not set
-# CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_NodeJS is not set
 # CONFIG_PACKAGE_luci-app-upnp is not set
-# CONFIG_PACKAGE_luci-app-uugamebooster is not set
 # CONFIG_PACKAGE_luci-app-vlmcsd is not set
 # CONFIG_PACKAGE_luci-app-vsftpd is not set
+# CONFIG_PACKAGE_luci-app-wireguard is not set
 # CONFIG_PACKAGE_luci-app-wol is not set
 # CONFIG_PACKAGE_luci-app-xlnetacc is not set
 # CONFIG_PACKAGE_luci-app-zerotier is not set
+CONFIG_PACKAGE_luci-compat=y
+CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
 # CONFIG_PACKAGE_luci-lib-fs is not set
+# CONFIG_PACKAGE_luci-proto-wireguard is not set
 # CONFIG_PACKAGE_miniupnpd is not set
 # CONFIG_PACKAGE_nlbwmon is not set
-# CONFIG_PACKAGE_node is not set
-# CONFIG_PACKAGE_qBittorrent-static is not set
+# CONFIG_PACKAGE_pciids is not set
+# CONFIG_PACKAGE_pciutils is not set
+CONFIG_PACKAGE_rt2800-usb-firmware=y
 # CONFIG_PACKAGE_samba36-server is not set
 # CONFIG_PACKAGE_shadowsocksr-libev-ssr-local is not set
 # CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir is not set
 # CONFIG_PACKAGE_shadowsocksr-libev-ssr-server is not set
 # CONFIG_PACKAGE_strongswan is not set
-# CONFIG_PACKAGE_uugamebooster is not set
-# CONFIG_PACKAGE_vlmcsd is not set
+# CONFIG_PACKAGE_ttyd is not set
+CONFIG_PACKAGE_unzip=y
+# CONFIG_PACKAGE_usbids is not set
+# CONFIG_PACKAGE_usbutils is not set
 # CONFIG_PACKAGE_vsftpd-alt is not set
+# CONFIG_PACKAGE_wireguard-tools is not set
+CONFIG_PACKAGE_wireless-regdb=y
 # CONFIG_PACKAGE_wol is not set
+CONFIG_PACKAGE_wpad=y
 # CONFIG_PACKAGE_wsdd2 is not set
+CONFIG_PACKAGE_xray-plugin=y
 # CONFIG_PACKAGE_zerotier is not set
-CONFIG_TARGET_EXT4_BLOCKSIZE=4096
-CONFIG_TARGET_EXT4_BLOCKSIZE_4K=y
-CONFIG_TARGET_EXT4_JOURNAL=y
-CONFIG_TARGET_EXT4_RESERVED_PCT=0
 CONFIG_TARGET_IMAGES_GZIP=y
 CONFIG_TARGET_KERNEL_PARTSIZE=64
-CONFIG_TARGET_ROOTFS_EXT4FS=y
 CONFIG_TARGET_ROOTFS_TARGZ=y
+CONFIG_V2RAY_PLUGIN_COMPRESS_UPX=y
+CONFIG_WPA_MSG_MIN_PRIORITY=3
+CONFIG_XRAY_CORE_COMPRESS_UPX=y
+CONFIG_XRAY_PLUGIN_COMPRESS_UPX=y
